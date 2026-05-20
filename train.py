@@ -26,7 +26,7 @@ from sklearn.model_selection import train_test_split
 # Paths
 # -----------------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent
-DATA_PATH = ROOT / "data" / "auto_insurance_premiums.csv"
+DATA_PATH = ROOT / "auto_insurance_premiums.csv"
 ART_DIR = ROOT / "artifacts"
 ART_DIR.mkdir(exist_ok=True)
 
